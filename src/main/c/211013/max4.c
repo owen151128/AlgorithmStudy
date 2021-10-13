@@ -2,8 +2,7 @@
 // Created by Sangmin Shim on 2021/10/13.
 //
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "../utils/owenScan.h"
 
 void checkBiggerThenMax(int *max, int num) {
     *max = num >= *max ? num : *max;
@@ -18,13 +17,6 @@ int max4(int a, int b, int c, int d) {
     checkBiggerThenMax(&max, d);
 
     return max;
-}
-
-void scanInt(int *ptr) {
-    static const int INPUT_SIZE = 30;
-    char input[INPUT_SIZE];
-    fgets(input, INPUT_SIZE, stdin);
-    *ptr = (int) strtol(input, NULL, 10);
 }
 
 int main(void) {
