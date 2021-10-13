@@ -99,3 +99,6 @@ local.properties
 # Maven
 log/
 target/
+
+# C
+cmake-*
