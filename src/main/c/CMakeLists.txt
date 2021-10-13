@@ -3,4 +3,4 @@ project(AlgorithmStudy C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(AlgorithmStudy utils/owenScan.h utils/owenScan.c 211013/min3.c)
+add_executable(AlgorithmStudy utils/owenScan.h utils/owenScan.c 211013/min4.c)
