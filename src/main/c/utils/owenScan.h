@@ -7,7 +7,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 
 void scanInt(int *ptr);
+
+void scanInts(int args, ...);
 
 #endif //ALGORITHMSTUDY_OWENSCAN_H
